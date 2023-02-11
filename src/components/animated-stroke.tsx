@@ -14,6 +14,7 @@ const AnimatedStroke = ({progress, ...pathProps}: AnimatedStrokeProps) => {
     const animatedProps = useAnimatedProps(() => ({
         strokeDashoffset: Math.max(
             0,
+            // @ts-ignore
             length - length * Easing.bezier(0.37, 0, 0.63, 1)(progress.value) - 0.1
         )
     }))
