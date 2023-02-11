@@ -8,9 +8,9 @@
       "dom",
       "esnext"
     ],
-    "moduleResolution": "Node",
+    "moduleResolution": "node",
     "noEmit": true,
     "skipLibCheck": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
   }
 }
